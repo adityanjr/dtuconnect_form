@@ -1,0 +1,207 @@
+    
+@font-face {
+    font-family: Nexa;
+    src: url("../fonts/Nexa Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Nexa;
+    font-weight: bold;
+    src: url("../fonts/Nexa Bold.otf") format("opentype");    
+}
+
+.connect{
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    font-size: 50px;
+    color: #ff9595;
+    font-family: Nexa;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-family: Nexa;
+}
+
+.clear {
+  clear: both; }
+
+body {
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+  margin: 0px; 
+  background: url("../image/image.jpg");
+  font-family: Nexa;
+}
+
+.main {
+  padding: 100px;
+  position: relative; }
+
+h1 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 130px;
+  color: #fff;
+  opacity: 0.5;
+  right: 40px;
+  top: -90px;
+  z-index: 9;
+    font-family: Nexa;
+}
+
+.container {
+  width: 520px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px; }
+
+.sign-up-content {
+  padding: 40px 60px 32px 60px;
+  position: relative;
+  z-index: 99; }
+
+
+input {
+  border: solid 2px #ebebeb;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Nexa;
+  padding: 16px 30px 16px 140px; }
+
+.form-textbox {
+  position: relative; }
+  .form-textbox label {
+    position: absolute;
+    left: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-weight: 600;
+    color: #888;
+    font-size: 14px;
+    font-family: Nexa;  
+}
+
+#name {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+#pass {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+#email {
+  border: none;
+  border-left: solid 2px #ebebeb;
+  border-right: solid 2px #ebebeb; }
+
+input[type=checkbox]:not(old) {
+  width: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  display: none; }
+
+input[type=checkbox]:not(old) + label {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+input[type=checkbox]:not(old) + label > span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 15px;
+
+  border: 2px solid #ebebeb;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  background: white;
+  background-image: -moz-linear-gradient(white, white);
+  background-image: -ms-linear-gradient(white, white);
+  background-image: -o-linear-gradient(white, white);
+  background-image: -webkit-linear-gradient(white, white);
+  background-image: linear-gradient(white, white);
+  vertical-align: bottom; }
+
+input[type=checkbox]:not(old):checked + label > span {
+  background-image: -moz-linear-gradient(white, white);
+  background-image: -ms-linear-gradient(white, white);
+  background-image: -o-linear-gradient(white, white);
+  background-image: -webkit-linear-gradient(white, white);
+  background-image: linear-gradient(white, white); }
+
+input[type=checkbox]:not(old):checked + label > span:before {
+  content: '\f26b';
+  display: block;
+  color: #222;
+  font-size: 11px;
+  line-height: 1.1;
+  text-align: center;
+  font-family: 'Material-Design-Iconic-Font';
+  font-weight: bold;
+font-family: Nexa;    
+}
+
+.label-agree-term {
+  color: #888; }
+
+.term-service {
+  color: #ff9595;
+  text-decoration: none; }
+  .term-service:hover {
+    text-decoration: underline; }
+
+.submit {
+  background: #ff9595;
+  color: #FFF;
+  border: none;
+  padding: 15px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Nexa;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px; }
+  .submit:hover {
+    background: #ff9585; }
+
+.loginhere {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.loginhere-link {
+  color: #ff9595;
+  text-decoration: none; }
+  .loginhere-link:hover {
+    text-decoration: underline; }
+
+
